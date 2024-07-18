@@ -49,8 +49,9 @@
 }
 
 .container-section{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-between;
+
 }
 .section-header{
     margin-left: 190px;
@@ -88,9 +89,105 @@
     margin-left: 14px;
 }
 .section-img{
-    margin-left: 420px;
+    width: 349px;
+    height: 580px;
+    margin-right: 190px;
 }
 
+/* container-2 style here */
+.container-2{
+   text-align: center;
+   margin-top: 100px;
+}
+.container-2-title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.container-2-description{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* section3 style */
+
+.section-3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 120px;
+    margin-right: 120px;
+
+    
+}
+.section3-img{
+    border-radius: 50%;
+}
+.section-3 div{
+    text-align: center;
+    margin-top: 70px;
+}
+.section-3 h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+.section-3 p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* section-4 style here */
+
+.section-4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 120px;
+    width: 1060px;
+    height: 371px;
+    background-color: rgb(34, 34, 34);
+    margin-left: 390px;
+    justify-content: space-between;
+}
+.section-4 h1{
+    width: 443px;
+    height: 116px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.section-4 p{
+    width: 443px;
+    height: 72px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.section-4-img{
+    width: 436px;
+    height: 332px;
+    border-radius: 28px;
+    padding-top: 30px;
+}
+.section-4-style{
+    padding-left: 54px;
+}
 
 /* responsive design */
 
+@media screen and (max-width:576px) {
+    .container-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-header{
+        margin: 10px;
+    }
+    .nav-bar{
+        margin-left: 10px;
+    }
+    .section-description{
+        width: 380px;
+    }
+}
