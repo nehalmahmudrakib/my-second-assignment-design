@@ -174,6 +174,21 @@
     padding-left: 54px;
 }
 
+
+/* section-5 style here */
+
+.section-5-title{
+    text-align: center;
+}
+.section-5-description{
+    text-align: center;
+}
+.section-5-img{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+
 /* responsive design */
 
 @media screen and (max-width:576px) {
@@ -189,5 +204,24 @@
     }
     .section-description{
         width: 380px;
+    }
+    .section-title{
+        height: 430px;
+        width: 320px;
+    }
+    .btn-1{
+        width: 170px;
+        margin-top: 50px;
+    }
+    .btn-2{
+        width: 170px;
+    }
+    .section-img{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .section-3{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
     }
 }
