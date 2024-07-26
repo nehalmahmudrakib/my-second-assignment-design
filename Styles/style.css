@@ -3,7 +3,9 @@
 .inter-font{
     font-family: "Inter", sans-serif;
 }
-
+*{
+    margin: 0;
+}
 .bg-color{
     background-color: rgba(17, 17, 17, 1.00);
     width: 100%;
@@ -76,9 +78,12 @@
     width: 224px;
     height: 54px;
     border-radius: 42px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
 }
 .btn-2{
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
     background-color:rgba(17, 17, 17, 1.00) ;
     width: 224px;
     height: 54px;
@@ -117,11 +122,12 @@
     grid-template-columns: repeat(4, 1fr);
     margin-left: 120px;
     margin-right: 120px;
-
     
 }
 .section3-img{
     border-radius: 50%;
+    width: 272px;
+height: 260px;
 }
 .section-3 div{
     text-align: center;
@@ -143,52 +149,152 @@
 .section-4{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-left: 190px;
     margin-top: 120px;
-    width: 1060px;
-    height: 371px;
+    margin-right: 190px;
     background-color: rgb(34, 34, 34);
-    margin-left: 390px;
-    justify-content: space-between;
+    border-radius: 24px;
+    align-items: center;
 }
 .section-4 h1{
-    width: 443px;
-    height: 116px;
-    font-size: 3rem;
+    width: 643px;
+    height: 130px;
+    font-size: 4rem;
     font-weight: 900;
     color: rgb(255, 255, 255);
 }
 .section-4 p{
     width: 443px;
-    height: 72px;
-    font-size: 0.9rem;
+    height: 102px;
+    font-size: 1.3rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
 .section-4-img{
-    width: 436px;
-    height: 332px;
+    width: 500px;
+    height: 380px;
     border-radius: 28px;
-    padding-top: 30px;
+    margin-left: 520px;
 }
 .section-4-style{
     padding-left: 54px;
+    padding-bottom: 40px;
 }
-
 
 /* section-5 style here */
-
 .section-5-title{
-    text-align: center;
+    width: 873px;
+    height: 58px;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-left: 190px;
+}
+.section-5{
+    margin-top: 172px;
 }
 .section-5-description{
-    text-align: center;
+    width: 871px;
+    height: 48px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 190px;
 }
 .section-5-img{
     display: grid;
     grid-template-columns: repeat(3, 2fr);
 }
 
+/* container-bmi-title design */
 
+.container-bmi-title{
+    margin-top: 120px;
+    margin-left: 520px;
+    text-align: left;
+}
+.container-bmi-heading{
+    font-size: 3.2rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.container-bmi-description{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 100px;
+}
+
+/* section-6 style here */
+
+.section-7-title{
+    margin-top: 120px;
+    text-align: center;
+}
+.section-7-header{
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-bottom: 24px;
+}
+.section-7-description{
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    height: 48px;
+    padding-bottom: 65px;
+}
+.section-7-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 190px;
+    margin-right: 210px;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.img-style-1{
+    width: 650px;
+    height: 572px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 18px;
+}
+.img-style-2{
+    width: 650px;
+    height: 572px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 18px;
+}
+.img-style-3{
+    width: 650px;
+    height: 572px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 18px;
+}
+.img-style-4{
+    width: 650px;
+    height: 572px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 18px;
+}
+.img-style-5{
+    width: 650px;
+    height: 572px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 18px;
+}
+.img-style-6{
+    width: 650px;
+    height: 572px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
 /* responsive design */
 
 @media screen and (max-width:576px) {
