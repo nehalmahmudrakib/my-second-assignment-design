@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 .inter-font{
     font-family: "Inter", sans-serif;
+}
+.miama-font{
+    font-family: 'Miama', sans-serif;
 }
 *{
     margin: 0;
@@ -60,6 +64,7 @@
 }
 .section-header{
     margin-left: 190px;
+    margin-top: 90px;
 }
 .section-title{
     font-size: 4.8rem;
@@ -74,6 +79,7 @@
     font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
 }
 .btn-1{
     border: 2px solid rgb(230, 83, 60);
@@ -84,6 +90,7 @@
     font-size: 18px;
     font-weight: 600;
     color: rgb(255, 255, 255);
+    margin-top: 30px;
 }
 .btn-2{
     border: 1px solid white;
@@ -100,6 +107,7 @@
     width: 349px;
     height: 580px;
     margin-right: 190px;
+    margin-top: 40px;
 }
 
 /* container-2 style here */
@@ -116,6 +124,7 @@
     font-size: 0.9rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
 }
 
 /* section3 style */
@@ -125,6 +134,7 @@
     grid-template-columns: repeat(4, 1fr);
     margin-left: 120px;
     margin-right: 120px;
+    margin-top: 60px;
     
 }
 #section-3-style{
@@ -220,7 +230,7 @@ height: 260px;
 
 .container-bmi-title{
     margin-top: 120px;
-    margin-left: 520px;
+    margin-left: 320px;
     text-align: left;
 }
 .container-bmi-heading{
@@ -233,11 +243,147 @@ height: 260px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     padding-bottom: 100px;
+    margin-top: 20px;
 }
 
 /* section-6 style here */
 
-
+.section-6{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(34, 34, 34);
+    height: 100%;
+    width: 100%;
+}
+.bmi{
+    width: 443px;
+    height: 34px;
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-left: 190px;
+    margin-top: 60px;
+}
+.calculate-bmi{
+    width: 443px;
+    height: 34px;
+    font-size: 28px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-top: 60px;
+}
+.calculate-bmi-description{
+    width: 577px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+}
+.calculate-section-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+}
+.section-height{
+    width: 300px;
+    height: 22px;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 20px 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.section-height h1{
+    width: 79px;
+    height: 22px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.section-weight{
+    width: 310px;
+    height: 22px;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 20px 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 232px;
+}
+.section-weight h1{
+    width: 79px;
+    height: 22px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.calculate-section-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 12px;
+}
+.section-age{
+    width: 300px;
+    height: 22px;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 20px 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 230px;
+}
+.section-age p{
+    width: 79px;
+    height: 22px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.container-select-1{
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 20px 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-style: none;
+    margin-left: -200px;
+    margin-right: 230px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.container-select-2{
+    width: 722px;
+    height: 52px;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 20px 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-style: none;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 190px;
+    margin-top: 52px;
+    margin-bottom: 135px;
+}
+td, th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    width: 171px;
+    height: 17px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    opacity: 0.9;
+}
+td{
+    padding: 15px 20px;
+}
+th{
+    width: 30px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    text-align: start;
+}
 
 /* section-7 style here */
 
@@ -426,9 +572,14 @@ height: 260px;
     .section-description{
         width: 380px;
     }
+    .nav-title{
+        font-size: 3.5rem;
+    }
     .section-title{
-        height: 500px;
+        height: 200px;
         width: 320px;
+        font-size: 3rem;
+        margin-top: 60px;
     }
     .btn-1{
         width: 170px;
@@ -510,10 +661,11 @@ height: 260px;
     }
     .ham-burger{
         display: block;
-        border: 2px solid red;
-        width: 24px;
-        height: 24px;
+        width: 44px;
+        height: 44px;
         color: white;
+        margin-top: 75px;
+        margin-left: 25px;
     }
     .footer-section{
         display: grid;
@@ -527,5 +679,79 @@ height: 260px;
         font-size: 0.9rem;
         margin-left: -198px;
         width: 350px;
+    }
+    .footer-bg{
+        height: 100%;
+    }
+    .footer-section-2{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 20px;
+        margin-top: -30px;
+    }
+    .footer-section-3{
+        padding-left: 0px;
+    }
+    .hr-line{
+        width: 380px;
+        margin-left: 20px;
+    }
+    .footer-credit{
+        margin-left: 20px;
+        padding-bottom: 50px;
+    }
+    .section-6{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container-bmi-title{
+        margin-left: 20px;
+    }
+    .container-bmi-heading{
+        font-size: 2.5rem
+    }
+    .bmi{
+        margin-left: 20px;
+        font-size: 1.5rem;
+    }
+    table{
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    td, th{
+    width: 141px;
+    height: 17px;
+    font-size: 0.8rem;
+    }
+    .calculate-bmi{
+        margin-left: 20px;
+        font-size: 1.5rem;
+    }
+    .calculate-bmi-description{
+        width: 420px;
+        margin-left: 20px;
+    }
+    .section-height{
+        width: 150px;
+        margin-left: 20px;
+    }
+    .section-weight{
+        width: 150px;
+        margin-left: 10px;
+    }
+    .section-age{
+        width: 150px;
+        margin-left: 20px;
+    }
+    .container-select-1{
+        width: 160px;
+    }
+    .container-select-2{
+        width: 380px;
+        margin-left: 20px;
+    }
+    .calculate-btn{
+        margin-left: 20px;
+        margin-bottom: 45px;
     }
 }
