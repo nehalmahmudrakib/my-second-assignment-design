@@ -69,8 +69,8 @@
 .section-title{
     font-size: 4.8rem;
     font-weight: 900;
-    width: 620px;
-    height: 282px;
+    width: 520px;
+    height: 300px;
     color: rgb(255, 255, 255);
 }
 .section-description{
@@ -108,6 +108,74 @@
     height: 580px;
     margin-right: 190px;
     margin-top: 40px;
+}
+.section-tag-1{
+    width: 163px;
+    height: 86px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 12px;
+    margin-top: -450px;
+    backdrop-filter: blur(20px);
+    margin-left: 230px;
+    
+}
+.tag-header{
+    width: 116px;
+    height: 40px;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.tag-description{
+    width: 146px;
+    height: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+    padding-top: 12px;
+}
+.section-tag-2{
+    width: 203px;
+    height: 86px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    padding-top: 10px;
+    margin-left: -120px;
+    margin-top: 180px;
+}
+.tag-header-2{
+    width: 116px;
+    height: 40px;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.tag-description-2{
+    width: 146px;
+    height: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+    padding-top: 12px;
+}
+.round{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.round-ball{
+    height: 50%;
+    width: 50%;
+    border: 2px solid orangered;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgb(230, 83, 60);
+
 }
 
 /* container-2 style here */
@@ -405,6 +473,7 @@ th{
     padding-bottom: 65px;
 }
 .section-7-img{
+    position: relative;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin-left: 190px;
@@ -412,6 +481,7 @@ th{
     border-radius: 18px;
     background-color: rgba(255, 255, 255, 0.1);
 }
+
 .img-style-1{
     width: 450px;
     height: 400px;
@@ -419,8 +489,43 @@ th{
     margin-left: 35px;
     margin-top: 20px;
     margin-bottom: 20px;
- 
+}
+.Jerome-Bell{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 350px;
+}
+.img-1-header{
+    color: white;
+}
+.img-1-trainer{
+    color: rgba(255, 255, 255, 0.5);
+}
 
+.Cameron-William{
+    position: absolute;
+    margin-left: 560px;
+    margin-top: 350px;
+}
+.Darrell-Steward{
+    position: absolute;
+    margin-left: 1060px;
+    margin-top: 350px;
+}
+.Dianne-Russel{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 790px;
+}
+.Cody-Fisher{
+    position: absolute;
+    margin-left: 560px;
+    margin-top: 790px;
+}
+.Theresa-Webb{
+    position: absolute;
+    margin-left: 1060px;
+    margin-top: 790px;
 }
 
 /* Footer style Here */
@@ -753,5 +858,27 @@ th{
     .calculate-btn{
         margin-left: 20px;
         margin-bottom: 45px;
+    }
+    .Jerome-Bell{
+        margin-top: 250px;
+    }
+    .Cameron-William{
+        margin-top: 590px;
+        margin-left: 50px;
+    }
+    .Darrell-Steward{
+        margin-left: 50px;
+        margin-top: 930px;
+    }
+    .Dianne-Russel{
+        margin-top: 1270px;
+    }
+    .Cody-Fisher{
+        margin-left: 50px;
+        margin-top: 1610px;
+    }
+    .Theresa-Webb{
+        margin-left: 50px;
+        margin-top: 1950px;
     }
 }
