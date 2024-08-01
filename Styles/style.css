@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.Dancing-Script{
+    font-family: "Dancing Script", cursive;
+}
 
 .inter-font{
     font-family: "Inter", sans-serif;
@@ -42,8 +47,8 @@
     border-radius: 40px;
 }
 .nav-title{
-    width: 132px;
-    height: 43px;
+    width: 232px;
+    height: 63px;
     font-size: 2.4rem;
     font-weight: 800;
     color: rgb(230, 83, 60);
@@ -55,16 +60,16 @@
     background-color: rgb(230, 83, 60);
     border-radius: 46px;
     padding: 10px 20px;
+    margin-left: 2px;
 }
 
 .container-section{
     display: flex;
     justify-content: space-between;
-
 }
 .section-header{
     margin-left: 190px;
-    margin-top: 90px;
+
 }
 .section-title{
     font-size: 4.8rem;
@@ -120,7 +125,6 @@
     margin-top: -450px;
     backdrop-filter: blur(20px);
     margin-left: 230px;
-    
 }
 .tag-header{
     width: 116px;
@@ -148,16 +152,17 @@
     margin-top: 180px;
 }
 .tag-header-2{
-    width: 116px;
+    width: 100px;
     height: 40px;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 900;
     color: rgb(255, 255, 255);
+    margin-right: 50px;
 }
 .tag-description-2{
-    width: 146px;
+    width: 120px;
     height: 20px;
-    font-size: 13px;
+    font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.65);
     padding-top: 12px;
@@ -175,7 +180,6 @@
     margin-top: 20px;
     margin-left: 20px;
     background-color: rgb(230, 83, 60);
-
 }
 
 /* container-2 style here */
@@ -202,8 +206,7 @@
     grid-template-columns: repeat(4, 1fr);
     margin-left: 120px;
     margin-right: 120px;
-    margin-top: 60px;
-    
+    margin-top: 60px; 
 }
 #section-3-style{
     padding-top: 30px;
@@ -214,7 +217,8 @@
 .section3-img{
     border-radius: 50%;
     width: 272px;
-height: 260px;
+    height: 260px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 .section-3 div{
     text-align: center;
@@ -269,35 +273,10 @@ height: 260px;
     padding-bottom: 40px;
 }
 
-/* section-5 style here */
-.section-5-title{
-    width: 873px;
-    height: 58px;
-    font-size: 4rem;
-    font-weight: 900;
-    color: rgb(255, 255, 255);
-    margin-left: 190px;
-}
-.section-5{
-    margin-top: 172px;
-}
-.section-5-description{
-    width: 871px;
-    height: 48px;
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
-    margin-left: 190px;
-}
-.section-5-img{
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-}
-
 /* container-bmi-title design */
 
 .container-bmi-title{
-    margin-top: 120px;
+    margin-top: 60px;
     margin-left: 320px;
     text-align: left;
 }
@@ -310,7 +289,7 @@ height: 260px;
     font-size: 0.9rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-    padding-bottom: 100px;
+    padding-bottom: 40px;
     margin-top: 20px;
 }
 
@@ -352,6 +331,7 @@ height: 260px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 50px;
+    width: 420px;
 }
 .section-height{
     width: 300px;
@@ -385,6 +365,7 @@ height: 260px;
 .calculate-section-2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    width: 420px;
     margin-top: 12px;
 }
 .section-age{
@@ -528,29 +509,86 @@ th{
     margin-top: 790px;
 }
 
+/* Section 8 style here */
+
+.section-8{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 700px;
+    width: 100%;
+    margin-top: 150px;
+}
+.section-8-header{
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: 900;
+    color: rgba(255, 94, 0, 0.89);
+    padding-top: 120px;
+    padding-left: 120px;
+}
+.section-8-description{
+    color: white;
+    font-size: 1.7rem;
+    height: 20px;
+    width: 600px;
+    padding-left: 120px;
+    padding-top: 60px;
+    opacity: 0.7;
+}
+.img-sction-8{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.section-8-img-1{
+    height: 450px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 70px;
+    border-radius: 12px;
+}
+.section-8-img-2{
+    height: 450px;
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 150px;
+    border-radius: 12px;
+}
+.section-8-anchor a{
+    font-weight: 600;
+    font-size: 1.9rem;
+    color: #ffffff;
+}
+.section-8-anchor{
+    margin-top: 150px;
+    margin-left: 120px;
+}
+
+
 /* Footer style Here */
 
 
 .footer-bg{
     width: 100%;
-    height: 500px;
+    height: 100%;
     background-color: rgba(255, 255, 255, 0.1);
     margin-top: 65px;
 }
 .footer-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    height: 400px;
     
     
 }
 .footer-section-1{
     padding-left: 220px;
-    width: 550px;
+    width: 190px;
 }
 .footer-section-2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-left: 100px;
+    padding-left: 450px;
 }
 .footer-section-3{
     padding-left: 100px;
@@ -659,6 +697,7 @@ th{
     color: rgba(255, 255, 255, 0.5);
     margin: 0 auto;
     margin-top: 40px;
+   padding-bottom: 50px;
 }
 
 /* responsive design */
@@ -669,7 +708,9 @@ th{
         grid-template-columns: repeat(1, 1fr);
     }
     .section-header{
-        margin: 10px;
+        /* margin: 10px; */
+        margin-left: 10px;
+        width: 400px;
     }
     .nav-bar{
         margin-left: 10px;
@@ -771,10 +812,12 @@ th{
         color: white;
         margin-top: 75px;
         margin-left: 25px;
+        margin-right: 10px;
     }
     .footer-section{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        height: 900px;
     }
     .footer-header-1{
         font-size: 4rem;
@@ -793,9 +836,11 @@ th{
         grid-template-columns: repeat(1, 1fr);
         padding-left: 20px;
         margin-top: -30px;
+        width: 400px;
     }
     .footer-section-3{
         padding-left: 0px;
+        width: 390px;
     }
     .hr-line{
         width: 380px;
@@ -813,28 +858,30 @@ th{
         margin-left: 20px;
     }
     .container-bmi-heading{
-        font-size: 2.5rem
+        font-size: 2.5rem;
     }
     .bmi{
         margin-left: 20px;
         font-size: 1.5rem;
+        width: 390px;
     }
     table{
         margin-left: 20px;
         margin-bottom: 10px;
     }
     td, th{
-    width: 141px;
-    height: 17px;
-    font-size: 0.8rem;
+        width: 141px;
+        height: 17px;
+        font-size: 0.8rem;
     }
     .calculate-bmi{
         margin-left: 20px;
         font-size: 1.5rem;
+        width: 390px;
     }
     .calculate-bmi-description{
-        width: 420px;
         margin-left: 20px;
+        width: 390px;
     }
     .section-height{
         width: 150px;
@@ -880,5 +927,67 @@ th{
     .Theresa-Webb{
         margin-left: 50px;
         margin-top: 1950px;
+    }
+    .section-tag-1{
+        width: 150px;
+        height: 86px;
+        margin-top: -530px;
+        margin-right: 30px;
+        margin-left: 200px;
+        padding-left: 10px;
+    }
+    .section-tag-2{
+       margin-top: -10px;
+       margin-top: 100px;
+       margin-left: 1px;
+       width: 170px;
+    }
+    .tag-header-2{
+        font-size: 2rem;
+    }
+    .round-ball{
+        height: 40%;
+        width: 40%;
+        margin-left: 10px;
+    }
+    .section-8{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 100%;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .section-8-header{
+        font-size: 1.2rem;
+        text-align: center;
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 0;
+    }
+    .section-8-description{
+        font-size: 0.9rem;
+        padding-left: 20px;
+        text-align: center;
+        width: 100%;
+        height: 80px;
+        padding-top: 10px;
+        padding-left: 0;
+    }
+    .img-sction-8{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-8-img-1{
+        margin-left: 40px;
+    }
+    .section-8-anchor{
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+    }
+    .section-8-img-2{
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
 }
