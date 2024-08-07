@@ -267,6 +267,8 @@
     height: 330px;
     border-radius: 28px;
     margin-left: 280px;
+    object-fit: none;
+    Object-position: 66% 33%;
 }
 .section-4-style{
     padding-left: 54px;
@@ -292,6 +294,8 @@
     padding-bottom: 40px;
     margin-top: 20px;
 }
+
+
 
 /* section-6 style here */
 
@@ -355,6 +359,7 @@
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.1);
     margin-right: 232px;
+    margin-left: 30px;
 }
 .section-weight h1{
     width: 79px;
@@ -393,6 +398,7 @@
     margin-right: 230px;
     font-size: 1rem;
     font-weight: 400;
+    width: 350px;
 }
 .container-select-2{
     width: 722px;
@@ -536,7 +542,7 @@ th{
     padding-top: 60px;
     opacity: 0.7;
 }
-.img-sction-8{
+.img-section-8{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -738,6 +744,7 @@ th{
         margin-left: 50px;
         margin-top: 20px;
     }
+    /* section-3 style here */
     .section-3{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -751,6 +758,7 @@ th{
     #section-3-style{
         padding-top: 40px;
     }
+    /* section-7 style here */
     .section-7-img{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -772,6 +780,7 @@ th{
         width: 350px;
         margin-left: 35px;
     }
+    /* section-4 style here */
     .section-4{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -800,11 +809,14 @@ th{
         margin-left: 40px;
         width: 320px;
         height: 250px;
-        margin-bottom: 50px;
+        object-fit: cover;
+        margin-bottom: 20px;
     }
+    /* nav style here */
     .nav-item{
         display: none;
     }
+    /* hamburger style here */
     .ham-burger{
         display: block;
         width: 44px;
@@ -814,6 +826,7 @@ th{
         margin-left: 25px;
         margin-right: 10px;
     }
+    /* footer style here */
     .footer-section{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -842,6 +855,7 @@ th{
         padding-left: 0px;
         width: 390px;
     }
+    /* hr style here */
     .hr-line{
         width: 380px;
         margin-left: 20px;
@@ -850,6 +864,7 @@ th{
         margin-left: 20px;
         padding-bottom: 50px;
     }
+    /* section-6 style here */
     .section-6{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -906,27 +921,21 @@ th{
         margin-left: 20px;
         margin-bottom: 45px;
     }
-    .Jerome-Bell{
-        margin-top: 250px;
-    }
     .Cameron-William{
-        margin-top: 590px;
+        margin-top: 250px;
         margin-left: 50px;
     }
     .Darrell-Steward{
         margin-left: 50px;
-        margin-top: 930px;
-    }
-    .Dianne-Russel{
-        margin-top: 1270px;
+        margin-top: 590px;
     }
     .Cody-Fisher{
         margin-left: 50px;
-        margin-top: 1610px;
+        margin-top: 930px;
     }
     .Theresa-Webb{
         margin-left: 50px;
-        margin-top: 1950px;
+        margin-top: 1270px;
     }
     .section-tag-1{
         width: 150px;
@@ -973,7 +982,8 @@ th{
         padding-top: 10px;
         padding-left: 0;
     }
-    .img-sction-8{
+    /* section 8 style here */
+    .img-section-8{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
@@ -989,5 +999,8 @@ th{
     .section-8-img-2{
         margin-top: 30px;
         margin-bottom: 20px;
+    }
+    .jb{
+        display: none;
     }
 }
