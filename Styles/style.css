@@ -168,6 +168,7 @@
     padding-top: 12px;
 }
 .round{
+    position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -274,6 +275,182 @@
     padding-left: 54px;
     padding-bottom: 40px;
 }
+
+/* section 5 style here */
+
+.section-5-header{
+    margin-left: 190px;
+    margin-top: 100px;
+    width: 80%;
+    height: 150px;
+}
+.training{
+    width: 873px;
+    height: 58px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.training-description{
+    width: 871px;
+    height: 48px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 30px;
+}
+.section-5-img{
+    margin-left: 190px;
+    margin-top: 100px;
+    margin-right: 190px;
+}
+.section-5-img-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.exercise-1{
+    position: relative;
+    width: 363px;
+    height: 280px;
+}
+
+#img-1{
+    height: 100%;
+    width: 100%;
+}
+.img-color-1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(6, 255, 210, 0.5);
+    top: 0;
+}
+.img-heading-1{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    top: 217px;
+    left: 30px;
+}
+.exercise-2{
+    position: relative;
+    width: 772px;
+    height: 280px;
+}
+#img-2{
+    height: 100%;
+    width: 100%;
+}
+.img-color-2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.3);
+    top: 0;
+}
+.img-heading-2{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    left: 51px;
+    top: 25px;
+    color: rgb(255, 255, 255);
+}
+.exercise-3{
+    position: relative;
+    width: 388px;
+    height: 280px;
+}
+#img-3{
+    height: 100%;
+    width: 100%;
+}
+.img-color-3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+}
+.img-heading-3{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    left: 27px;
+    top: 200px;
+    color: rgb(255, 255, 255);
+}
+
+.section-5-img-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.exercise-4{
+    position: relative;
+    width: 640px;
+    height: 284px;
+}
+#img-4{
+    height: 100%;
+    width: 100%;
+}
+.img-color-4{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0; 
+}
+.img-heading-4{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    left: 400px;
+    top: 30px;
+    color: rgb(255, 255, 255);
+}
+.exercise-5{
+    position: relative;
+    width: 411px;
+    height: 284px;
+}
+#img-5{
+    height: 100%;
+    width: 100%;
+}
+.img-color-5{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(66, 255, 0, 0.3);
+    top: 0;
+}
+.exercise-6{
+    position: relative;
+    width: 472px;
+    height: 284px;
+}
+#img-6{
+    height: 100%;
+    width: 100%;
+}
+.img-color-6{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 71, 255, 0.3);
+    top: 0;
+}
+
 
 /* container-bmi-title design */
 
@@ -1002,5 +1179,68 @@ th{
     }
     .jb{
         display: none;
+    }
+    .section-5-header{
+        margin-left: 20px;
+    }
+    .training{
+        width: 331px;
+        height: 76px;
+    }
+    .training-description{
+        width: 331px;
+        height: 72px;
+        margin-top: 20px;
+    }
+    .section-5-img{
+        margin-top: 130px;
+    }
+    .section-5-img{
+        margin-left: 20px;
+    }
+    .exercise-1{
+        width: 195px;
+        height: 160px;
+    }
+    .exercise-2{
+        width: 195px;
+        height: 160px;
+    }
+    .exercise-4{
+        width: 195px;
+        height: 160px;
+    }
+    .exercise-5{
+        width: 195px;
+        height: 160px;
+    }
+    .img-heading-1{
+        left: 16px;
+        top: 125px;
+        width: 97px;
+        height: 17px;
+        font-size: 0.9rem;
+        color: rgb(255, 255, 255);
+    }
+    .img-heading-2{
+        width: 87px;
+        height: 17px;
+        left: 31px;
+        top: 25px;
+        font-size: 0.9rem;
+    }
+    .img-heading-4{
+        width: 157px;
+        height: 17px;
+        left: 11px;
+        top: 110px;
+        font-size: 0.7rem;
+    }
+    .img-heading-3{
+        width: 157px;
+        height: 17px;
+        left: 18px;
+        top: 110px;
+        font-size: 0.7rem;
     }
 }
