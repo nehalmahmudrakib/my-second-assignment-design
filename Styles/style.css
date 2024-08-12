@@ -148,7 +148,6 @@
     border-radius: 12px;
     backdrop-filter: blur(20px);
     padding-top: 10px;
-    margin-left: -120px;
     margin-top: 180px;
 }
 .tag-header-2{
@@ -181,6 +180,14 @@
     margin-top: 20px;
     margin-left: 20px;
     background-color: rgb(230, 83, 60);
+}
+.play-icon{
+    margin-top: 8px;
+    text-align: center;
+    color: white;
+}
+.pi{
+    display: none;
 }
 
 /* container-2 style here */
@@ -891,7 +898,6 @@ th{
         grid-template-columns: repeat(1, 1fr);
     }
     .section-header{
-        /* margin: 10px; */
         margin-left: 10px;
         width: 400px;
     }
@@ -1130,6 +1136,7 @@ th{
     }
     .tag-header-2{
         font-size: 2rem;
+        
     }
     .round-ball{
         height: 40%;
@@ -1242,5 +1249,15 @@ th{
         left: 18px;
         top: 110px;
         font-size: 0.7rem;
+    }
+    .play-icon{
+        margin-top: 4px;
+    }
+    .section-350{
+        width: 120px;
+        margin-left: -20px;
+    }
+    .pi{
+        display: block;
     }
 }
