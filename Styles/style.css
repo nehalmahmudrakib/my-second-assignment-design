@@ -763,6 +763,7 @@ th{
     height: 100%;
     background-color: rgba(255, 255, 255, 0.1);
     margin-top: 65px;
+    /* border: 2px solid red; */
 }
 .footer-section{
     display: grid;
@@ -947,6 +948,7 @@ th{
         grid-template-columns: repeat(1, 1fr);
         margin-left: 10px;
         margin-right: 20px;
+        min-width: 400px;
     }
     .img-style-1{
         width: 350px;
@@ -969,6 +971,7 @@ th{
         grid-template-columns: repeat(1, 1fr);
         margin-left: 20px;
         margin-right: 20px;
+        min-width: 380px;
     }
     .section-4 h1{
         width: 323px;
@@ -1027,6 +1030,7 @@ th{
     .footer-bg{
         height: 100%;
         width: 100%;
+        min-width: 420px;
     }
     .footer-section-2{
         display: grid;
@@ -1052,6 +1056,7 @@ th{
     .section-6{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        min-width: 420px;
     }
     .container-bmi-title{
         margin-left: 20px;
@@ -1144,30 +1149,33 @@ th{
         width: 40%;
         margin-left: 10px;
     }
+        /* section 8 style here */
     .section-8{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         height: 100%;
         width: 90%;
         margin-left: 20px;
+        border-radius: 18px;
+        min-width: 380px;
     }
     .section-8-header{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
         text-align: center;
         width: 100%;
         padding-top: 30px;
         padding-left: 0;
     }
     .section-8-description{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         padding-left: 20px;
         text-align: center;
-        width: 100%;
+        width: 70%;
         height: 80px;
         padding-top: 10px;
-        padding-left: 0;
+        margin-left: 40px;
+
     }
-    /* section 8 style here */
     .img-section-8{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -1260,5 +1268,350 @@ th{
     }
     .pi{
         display: block;
+    }
+    .ham-icon{
+        font-size: 40px;
+    }
+}
+
+/* ==Tablet Responsive== */
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .nav-item{
+        margin-left: 600px;
+        margin-top: 120px;
+        height: 100px;
+        width: 800px;
+    }
+    .nav-item p{
+        font-size: 3rem;
+        padding-right: 20px;
+    }
+    .nav-title{
+        margin-top: 100px;
+        font-size: 8rem;
+    }
+    .nav-bar{
+        margin-left: 60px;
+    }
+    .container-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section-title{
+        font-size: 12rem;
+        width: 1300px;
+        height: 800px;
+    }
+    .section-description{
+
+        font-size: 3rem;
+        width: 1500px;
+        height: 150px;
+        margin-top: 50px;
+    }
+    .btn-1, .btn-2{
+        width: 550px;
+        height: 150px;
+        font-size: 3rem;
+        margin-top: 60px;
+        border-radius: 500px;
+    }
+    .section-header{
+        margin-top: 200px;
+    }
+    .header-png{
+        width: 1000px;
+        height: 1700px;
+        margin-left: 450px;
+        margin-top: 150px;
+    }
+    .container-2{
+        margin-top: 1500px;
+    }
+    .section-tag-1{
+        margin-top: -1500px;
+        height: 200px;
+        width: 400px;
+        margin-left: 1000px;
+        border-radius: 50px;
+    }
+    .tag-header{
+        font-size: 7rem;
+    }
+    .tag-description{
+        font-size: 2rem;
+        width: 400px;
+        height: 50px;
+        margin-top: 80px;
+    }
+    .section-tag-2{
+        margin-top: 600px;
+        margin-left: 400px;
+        height: 200px;
+        width: 500px;
+        border-radius: 50px;
+    }
+    .tag-header-2{
+        font-size: 7rem;
+    }
+    .tag-description-2{
+        font-size: 2rem;
+        width: 400px;
+        height: 50px;
+        margin-top: 80px;
+    }
+    .round-ball{
+        width: 100px;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    .pi{
+        display: block;
+    }
+    .play-icon{
+        font-size: 3rem;
+        margin-top: 16px;
+    }
+    .container-2{
+        width: 1200px;
+        margin-left: 300px;
+    }
+    .container-2-title{
+        font-size: 7rem;
+    }
+    .container-2-description{
+        font-size: 2rem;
+        width: 900px;
+        padding-left: 150px;
+    }
+    .section-3{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 1550px;
+        height: 1600px;
+    }
+    .section3-img{
+        width: 500px;
+        height: 500px;
+    }
+    #section-3-style{
+        font-size: 3rem;
+    }
+    #section-3-style-description{
+        font-size: 1.8rem;
+        width: 500px;
+        margin-left: 130px;
+    }
+    .section-4{
+        height: 800px;
+        width: 1650px;
+        margin-left: 60px;
+    }
+    .section-4-style{
+        width: 700px;
+        height: 600px;
+    }
+    .section-4-style h1{
+        font-size: 5rem;
+        height: 220px;
+    }
+    .section-4-style p{
+        font-size: 1.5rem;
+        width: 700px;
+        height: 150px;
+    }
+    .section-4-img{
+        margin-left: 50px;
+        width: 700px;
+        height: 700px;
+    }
+    .section-5-header{
+        margin-left: 60px;
+    }
+    .training{
+        font-size: 6rem;
+        width: 1200px;
+        height: 150px;
+    }
+    .training-description{
+        font-size: 2rem;
+        width: 1500px;
+        height: 150px;
+    }
+    .section-5-img{
+        margin-top: 300px;
+        margin-left: 120px;
+    }
+    .section-8{
+        width: 1765px;
+    }
+    .container-bmi-title{
+        margin-left: 60px;
+    }
+    .container-bmi-heading{
+        font-size: 8rem;
+        width: 1200px;
+        height: 150px;
+    }
+    .container-bmi-description{
+        font-size: 2.1rem;
+        width: 1200px;
+        margin-bottom: 100px;
+    }
+    .section-6{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 1765px;
+        height: 2300px;
+    }
+    .bmi{
+        margin-left: 60px;
+        font-size: 4rem;
+        width: 700px;
+        height: 100px;
+    }
+    th{
+        width: 500px;
+        height: 100px;
+        font-size: 3rem;
+    }
+    td{
+        width: 500px;
+        height: 130px;
+        font-size: 3rem;
+    }
+    table{
+        margin-left: 60px;
+    }
+    .calculate-bmi{
+        font-size: 6rem;
+        width: 1100px;
+        height: 150px;
+        margin-left: 40px;
+    }
+    .calculate-bmi-description{
+        font-size: 2.1rem;
+        width: 1200px;
+        height: 100px;
+        margin-left: 40px;
+    }
+    .section-height{
+        width: 750px;
+        height: 100px;
+        margin-left: 40px;
+        border-radius: 30px;
+    }
+    .section-weight{
+        width: 750px;
+        height: 100px;
+        border-radius: 30px;
+    }
+    .section-age{
+        width: 750px;
+        height: 100px;
+        margin-left: 40px;
+        border-radius: 30px;
+    }
+    .container-select-1{
+        width: 800px;
+        height: 120px;
+        border-radius: 30px;
+    }
+    .container-select-2{
+        width: 1600px;
+        height: 120px;
+        border-radius: 30px;
+        margin-left: 40px;
+    }
+    .calculate-btn{
+        margin-left: 40px;
+    }
+    .section-7-title{
+        padding-top: 100px;
+        width: 1200px;
+        margin-left: 300px;
+    }
+    .section-7-header{
+        font-size: 8rem;
+        width: 1200px;
+        height: 200px;
+    }
+    .section-7-description{
+        font-size: 2rem;
+        width: 1200px;
+        height: 150px;
+    }
+    .section-7-img{
+        margin-left: 40px;
+        width: 1700px;
+    }
+    .img-style-1{
+        width: 500px;
+        height: 600px;
+    }
+    .Jerome-Bell, .Cameron-William, .Darrell-Steward{
+        margin-top: 500px;
+        font-size: 2rem;
+    }
+    .Cameron-William, .Cody-Fisher{
+        margin-left: 620px;
+    }
+    .Darrell-Steward, .Theresa-Webb{
+        margin-left: 1200px;
+    }
+    .Dianne-Russel, .Theresa-Webb, .Cody-Fisher{
+        font-size: 2rem;
+        margin-top: 1120px;
+    }
+    .footer-bg{
+        height: 1650px;
+        width: 1765px;
+    }
+    .footer-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-section-1{
+        height: 550px;
+        width: 1200px;
+        padding-left: 0;
+        margin-left: 60px;
+        margin-top: 70px;
+    }
+    .footer-header-1{
+        font-size: 13rem;
+        width: 800px;
+        height: 250px;
+    }
+    .footer-description-1{
+        font-size: 2rem;
+        width: 1100px;
+        height: 150px;
+    }
+    .footer-section-2{
+        height: 650px;
+        padding-left: 0;
+        margin-left: 60px;
+    }
+    .footer-section-2 h3{
+        font-size: 5rem;
+        width: 500px;
+        height: 100px;
+    }
+    .footer-section-2 p{
+        font-size: 3.5rem;
+        height: 80px;
+        width: 500px;
+    }
+    .hr-line{
+        margin-top: 1000px;
+        width: 92%;
+        margin-left: 60px;
+    }
+    .footer-credit{
+        margin-top: 100px;
+        font-size: 3.5rem;
+        width: 900px;
     }
 }
